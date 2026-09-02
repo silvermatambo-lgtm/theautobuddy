@@ -1,0 +1,23 @@
+{
+  "name": "The Autobuddy",
+  "short_name": "Autobuddy",
+  "description": "Vehicle sourcing, inspections, valuations, trade assistance and dealer inventory tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061a35",
+  "theme_color": "#0870dc",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "business",
+    "automotive"
+  ],
+  "lang": "en-ZA"
+}
