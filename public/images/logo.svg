@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 420" role="img" aria-labelledby="title desc">
+<title id="title">The Autobuddy</title><desc id="desc">Blue automotive shield with sports car, handshake and The Autobuddy wordmark</desc>
 <defs>
- <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21b9ff"/><stop offset=".55" stop-color="#0878e8"/><stop offset="1" stop-color="#03418f"/></linearGradient>
- <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#dce8f5"/><stop offset="1" stop-color="#8097b1"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffd530"/><stop offset="1" stop-color="#f39a00"/></linearGradient>
- <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#00142e" flood-opacity=".65"/></filter>
+ <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22b9ff"/><stop offset=".42" stop-color="#087cff"/><stop offset="1" stop-color="#063ba8"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#d9e2ec"/><stop offset="1" stop-color="#7c8da2"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd72e"/><stop offset="1" stop-color="#f39b00"/></linearGradient>
+ <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#00142d" flood-opacity=".45"/></filter>
 </defs>
-<g filter="url(#shadow)">
- <path d="M118 24h250l91 62-24 174-192 74L54 260 29 86z" fill="#04162f" stroke="url(#silver)" stroke-width="11"/>
- <path d="M118 39h250l72 49-13 79H61L47 89z" fill="none" stroke="url(#blue)" stroke-width="11"/>
- <path d="M92 142c38-60 99-86 190-79 67 5 116 33 148 78l-37 4c-17-31-51-47-99-49H191c-41 4-73 21-98 50z" fill="url(#blue)"/>
- <path d="M116 138c22-32 57-48 104-49h73c36 3 66 18 87 47-63-15-197-13-264 2z" fill="#ffffff" opacity=".95"/>
- <path d="M74 171h337l-31 74-139 54-136-52z" fill="#06295a" stroke="#0878e8" stroke-width="6"/>
- <path d="M152 212c19-19 39-20 60-2 22-18 44-18 66 0 20-18 41-17 61 2" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
- <path d="M187 198l26 31 28-30 27 30 26-31" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
- <path d="M211 254l30 17 30-17" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
- <path d="M238 317l21 0" stroke="#f7b500" stroke-width="9" stroke-linecap="round"/>
+<g filter="url(#s)">
+ <path d="M65 202 95 69 242 18 389 69l31 133-178 140z" fill="#03152f" stroke="url(#silver)" stroke-width="14"/>
+ <path d="M101 80 242 34 383 80l13 54H88z" fill="#063c91" opacity=".9"/>
+ <path d="M56 174c38-69 107-108 205-108 83 0 147 30 194 90l-35 14c-27-35-70-57-126-63l-118 1c-48 7-86 28-117 67z" fill="url(#blue)" stroke="#eaf7ff" stroke-width="7"/>
+ <path d="M83 159c36-35 73-48 116-50h87c38 4 76 20 108 47l-38 2c-19-16-44-26-76-30h-91c-31 3-55 13-76 31z" fill="#fff"/>
+ <path d="M70 188c72 6 144 4 216-8l114-10-28 65-130 70-132-69z" fill="#06285d" stroke="#0782ff" stroke-width="7"/>
+ <path d="M125 220c20-18 39-19 58-2 21-17 43-17 64 0 21-17 43-16 65 2" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+ <path d="M166 204l25 30 29-29 28 29 27-30" fill="none" stroke="url(#blue)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M128 244 242 323 354 244l-25 74-87 63-88-63z" fill="none" stroke="url(#gold)" stroke-width="15"/>
 </g>
-<g transform="translate(452 76)">
- <text x="0" y="20" fill="#061a35" font-family="Arial Black, Impact, sans-serif" font-size="30" font-style="italic">THE</text>
- <text x="-8" y="92" fill="url(#blue)" stroke="#042958" stroke-width="1.5" font-family="Arial Black, Impact, sans-serif" font-size="78" font-style="italic" letter-spacing="-4">AUTOBUDDY</text>
- <path d="M-6 107h286" stroke="#f7b500" stroke-width="7"/>
- <text x="0" y="140" fill="#061a35" font-family="Arial, Helvetica, sans-serif" font-size="21" font-style="italic" font-weight="800">YOUR FRIEND IN THE</text>
- <text x="196" y="140" fill="#f7b500" font-family="Arial, Helvetica, sans-serif" font-size="21" font-style="italic" font-weight="900">MOTOR INDUSTRY</text>
+<g transform="translate(444 86)">
+ <text x="0" y="52" fill="#f5f7fb" stroke="#06152d" stroke-width="2" paint-order="stroke" font-family="Arial Black,Impact,sans-serif" font-size="72" font-style="italic">The</text>
+ <text x="-10" y="182" fill="url(#blue)" stroke="#041936" stroke-width="4" paint-order="stroke" font-family="Arial Black,Impact,sans-serif" font-size="142" font-style="italic" letter-spacing="-7">AUTOBUDDY</text>
+ <text x="8" y="236" fill="#f6f7fb" stroke="#06152d" stroke-width="1.3" paint-order="stroke" font-family="Arial Black,Arial,sans-serif" font-size="33" font-style="italic" letter-spacing="1">YOUR FRIEND IN THE</text>
+ <text x="393" y="236" fill="url(#gold)" stroke="#7c5000" stroke-width=".8" paint-order="stroke" font-family="Arial Black,Arial,sans-serif" font-size="33" font-style="italic">MOTOR INDUSTRY</text>
+ <path d="M0 255h595" stroke="#087cff" stroke-width="5"/>
 </g>
 </svg>
