@@ -4,12 +4,12 @@
   "description": "Vehicle sourcing, inspections, valuations, trade assistance and dealer inventory tools.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#061a35",
+  "background_color": "#061225",
   "theme_color": "#0870dc",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/images/autobuddy-icon.svg?v=20260902c",
+      "src": "/images/autobuddy-icon-final.svg?v=final20260902",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
