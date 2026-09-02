@@ -9,15 +9,12 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/images/logo.svg",
+      "src": "/images/autobuddy-icon.svg?v=20260902c",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     }
   ],
-  "categories": [
-    "business",
-    "automotive"
-  ],
+  "categories": ["business", "automotive"],
   "lang": "en-ZA"
 }
