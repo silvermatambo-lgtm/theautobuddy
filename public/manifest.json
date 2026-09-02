@@ -5,11 +5,11 @@
   "start_url": "/",
   "display": "standalone",
   "background_color": "#061225",
-  "theme_color": "#0870dc",
+  "theme_color": "#061225",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/images/autobuddy-icon-final.svg?v=final20260902",
+      "src": "/images/autobuddy-icon-final.svg?v=simple20260902",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
