@@ -1,5 +1,5 @@
 @tailwind base;@tailwind components;@tailwind utilities;
-@layer base{html{scroll-behavior:smooth}body{font-family:'Arial Narrow','Roboto Condensed',Arial,sans-serif;color:#10233f;background:#fff;-webkit-font-smoothing:antialiased}h1,h2,h3,.display-font{font-family:Impact,'Arial Black','Arial Narrow',sans-serif;letter-spacing:-.02em}}
+@layer base{html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;color:#10233f;background:#fff;-webkit-font-smoothing:antialiased}h1,h2,h3,.display-font{font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif;font-style:italic;font-weight:800;letter-spacing:-.015em}}
 @layer components{
 .btn-blue{@apply inline-flex items-center justify-center gap-2 rounded-lg bg-buddy-600 px-5 py-3 text-sm font-black uppercase text-white transition hover:-translate-y-0.5 hover:bg-buddy-500 hover:shadow-glow}
 .btn-yellow{@apply inline-flex items-center justify-center gap-2 rounded-lg bg-sun-500 px-5 py-3 text-sm font-black uppercase text-ink transition hover:-translate-y-0.5 hover:bg-sun-400}
@@ -9,11 +9,14 @@
 .section-title{@apply mt-1 text-4xl font-black uppercase italic leading-none tracking-tight text-ink md:text-5xl}
 .field{@apply w-full rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:border-buddy-500 focus:ring-2 focus:ring-buddy-100}
 }
-.autobuddy-title{font-family:Impact,'Arial Black',sans-serif;font-style:italic;text-transform:uppercase;letter-spacing:-.035em;text-shadow:0 4px 0 rgba(0,0,0,.18)}
+.autobuddy-title{font-family:'Barlow Condensed','Arial Narrow',Arial,sans-serif;font-style:italic;font-weight:900;text-transform:uppercase;letter-spacing:-.025em;text-shadow:0 3px 0 rgba(0,0,0,.18)}
 .autobuddy-panel{background:linear-gradient(145deg,#071f44 0%,#043a79 58%,#0870dc 100%);box-shadow:0 20px 55px rgba(0,31,78,.3)}
 .autobuddy-grid{background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:26px 26px}
 .autobuddy-glow{box-shadow:0 0 0 1px rgba(48,170,255,.45),0 18px 55px rgba(0,90,220,.25)}
+.typewriter-line{display:inline-block;min-height:1em;white-space:pre-wrap}
+.typewriter-cursor{display:inline-block;margin-left:.06em;color:#f7b500;animation:cursorBlink .7s steps(1,end) infinite}
 @keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 @keyframes pulse{50%{transform:scale(1.07)}}
 @keyframes drift{50%{transform:translateY(-8px)}}
+@keyframes cursorBlink{0%,48%{opacity:1}49%,100%{opacity:0}}
 .page-enter{animation:rise .55s ease both}.float-pulse{animation:pulse 2s ease-in-out infinite}.hero-float{animation:drift 4.5s ease-in-out infinite}
